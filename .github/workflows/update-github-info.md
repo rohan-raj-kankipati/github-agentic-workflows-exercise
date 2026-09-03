@@ -1,6 +1,7 @@
 ---
 name: update-github-info
 description: Draft updates to Mona's GitHub Info site from official GitHub sources and open a pull request for review.
+model: gpt-4o
 on:
   workflow_dispatch:
   schedule:
